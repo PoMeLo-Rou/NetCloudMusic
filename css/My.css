@@ -1,0 +1,143 @@
+
+body{
+    min-height: max-content;
+    background-color: #f1f1f1;
+}
+.Win_header{
+    background-color:transparent;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Win_choose{
+    padding:0 1rem;
+}
+.Win_user{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.Win_icon{
+    margin-top: 3rem;
+    text-align: center;
+}
+.Win_message{
+    margin: 0 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 1000;
+    background-color: #fff;
+    align-items: center;
+}
+.Win_Item{
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin: 2rem 1rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+.Win_line{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.Win_line>div{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span
+{background-color: #fff;}
+
+.Win_mylike{
+    background-color: #fff;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin: 2rem 1rem 0;
+    padding: 1rem;
+    display:flex;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+}
+.Win_text{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.Win_title{
+    font-size: 1.8rem;
+}
+.Win_number{
+    padding:1rem 0 1rem 1rem;
+    font-size: 1.2rem;
+    color: darkgray;
+}
+.Win_channel{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.Win_channel>span{
+    margin-top: 3rem;
+    background-color: transparent;
+    font-size: 2rem;
+    color: #0a0a0a;
+}
+.Win_detail{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding:0 1rem;
+    margin: 1rem;
+}
+.Win_left{
+    display: flex;
+    background-color: #fff;
+}
+a{  background-color: #fff;
+    text-decoration: none;
+    color: black;
+}
+.Win_itemName{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: transparent;
+}
+.Win_detail>div{
+    background-color: #fff;
+    padding-top: 1rem;
+}
+.Win_footer{
+    background-color: #fff;
+    width: 100%;
+    
+}
+.Win_footer>ul{
+    width: 100%;
+    border-top: 1px solid #ebe9e9;
+    display: flex;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+}
+.Win_footer svg{
+    background-color: #fff;
+}
+.Win_footerLi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.Win_footer>a{
+    display: flex;
+    justify-items: center;
+    float: left;
+    flex-direction: column;
+    background-color: #fff;
+}

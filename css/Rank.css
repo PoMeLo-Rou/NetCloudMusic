@@ -1,0 +1,138 @@
+body{
+    background-color: #f1f2f3;
+}
+.Win_header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.Win_header>div{
+    padding: 0.5rem;
+    border: 1px solid #d1d2d3;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.Win_banner{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Win_recom{
+    padding: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+.Win_item{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.Win_biaosheng,.Win_rege,.Win_xinge{
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+.Win_biaosheng{
+    background: url(https://p1.music.126.net/pcYHpMkdC69VVvWiynNklA==/109951166952713766.jpg?param=100y100);
+}
+.Win_rege{
+    background: url(https://p1.music.126.net/ZyUjc7K_GDpD8MO1-GQkmA==/109951166952706664.jpg?param=100y100);
+}
+.Win_xinge{
+    background: url(https://p2.music.126.net/wVmyNS6b_0Nn-y6AX8UbpQ==/109951166952686384.jpg?param=100y100);
+}
+
+.Win_text{
+    display: flex;
+    flex-direction: column;
+}
+.Win_name{
+    font-size: 1.4rem;
+    color: black;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-word!important;
+    -webkit-line-clamp: 2;
+}
+
+.Win_singer{
+    font-size: 1.2rem;
+    color: #535151;
+}
+
+.Win_itemImg{
+    width: 10rem;
+    height: 10rem;
+}
+
+.Win_img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+}
+
+.Win_rank{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.Win_rankTitle{
+    width: 100%;
+    padding:1rem 1rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Win_rankItem{
+    min-width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #d1d1d1;
+}
+.Win_list{    
+    margin-top: 0.5rem;
+    background-color: transparent;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+
+}
+.Win_left{
+    display: flex;
+    padding: 0.3rem 0rem;
+}
+.Win_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+.Win_List{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.Win_allrecom,.Win_style,.Win_world,.Win_language{
+    padding: 1rem;
+}
+.Win_imglist,.Win_styleList,.Win_worldList,.Win_languageList{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.Win_imglist>img,.Win_styleList>img,.Win_worldList>img,.Win_languageList>img{
+    margin: 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+}

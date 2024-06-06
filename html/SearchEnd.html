@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCloudMusic</title>
+    <link rel="stylesheet" href="../css/SearchEnd.css">
+    <style>
+        *{  
+            background-color: #f1f2f3;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 10px;
+        }
+        @media (max-width:300px){
+            *{
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="Win_header">
+        <div class="Win_choose">
+                <button onclick="setTimeout(function(){ window.history.back();}, 500)"><svg t="1691583955785" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7263" width="2rem" height="2rem"><path d="M758.918 872.452L353.084 507.65l406.039-364.596c18.828-17.293 18.828-45.331 0-62.523-18.726-17.293-49.22-17.293-67.946 0L250.244 476.34c-18.828 17.293-18.828 45.331 0 62.522L690.87 934.872c18.726 17.293 49.22 17.293 67.946 0 18.93-17.191 18.93-45.23 0.102-62.42z" p-id="7264" fill="#515151"></path></svg></button>
+        </div>
+        <div class="Win_searchBox">
+            <svg t="1691223410742" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5097" width="1.5rem" height="1.5rem"><path d="M765.078588 721.106824l221.515294 221.515294a31.081412 31.081412 0 1 1-43.971764 43.971764l-221.515294-221.515294a433.513412 433.513412 0 0 1-284.943059 106.285177c-240.368941 0-435.2-194.861176-435.2-435.2C0.933647 195.764706 195.764706 0.963765 436.133647 0.963765c240.338824 0 435.2 194.831059 435.2 435.2 0 108.965647-40.056471 208.594824-106.315294 284.943059z m-328.914823 88.064c206.004706 0 373.007059-167.002353 373.007059-373.007059S642.168471 63.126588 436.163765 63.126588 63.126588 230.159059 63.126588 436.163765c0 206.004706 167.032471 373.007059 373.037177 373.007059z" fill="#999999" p-id="5098"></path></svg>
+            <input type="search" name="" class="Win_search" placeholder="&nbsp;&nbsp;搜索音乐、视频、播客、歌词">
+        </div>
+        <p><button>搜索</button></p>
+    </div>
+    <div class="Win_channel">
+        <span style="font-weight: bold;font-size: 1.6rem">综合</span><span>单曲</span><span>歌单</span><span>视频</span><span>歌手</span><span>播客</span>
+    </div>
+    <div class="Win_content">
+        <div class="Win_title">
+            <h1 style="font-size: 2rem;">单曲</h1>
+        </div>
+    </div>
+</body>
+<script src="../js/SearchEnd.js"></script>
+</html>

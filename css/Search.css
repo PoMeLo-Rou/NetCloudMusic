@@ -1,0 +1,183 @@
+.Win_header{
+    background-color:transparent;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Win_choose{
+    padding:0 1rem;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.Win_search{
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    background-color:  #fff;
+    opacity: .9;
+    border-radius: 8px 8px 8px 8px;
+    box-sizing: border-box;
+    padding: 0 4px 0 4px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Win_searchBox{
+    flex: 1;
+    height: 3rem;
+    background-color:  #fff;
+    opacity: .9;
+    border-radius: 8px 8px 8px 8px;
+    box-sizing: border-box;
+    padding: 0 4px 0 4px;
+    display: flex;
+    align-items: center;
+}
+.Win_header >p>button{
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    font-weight: 500;
+}
+.Win_manner{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.Win_mannerItems{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-right: 1px solid #d1d1d1;
+}
+.Win_mannerItems:nth-child(4){
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-right:none;
+}
+.Win_mannerItems >span{
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+.Win_history,.Win_favorit{
+    margin-top: 1rem;
+    align-content: center;
+}
+.Win_historyTitle,.Win_favoritTitle{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Win_historyTitle >div,.Win_favoritTitle >div{
+    font-size: 1.4rem;
+    font-weight: 500;
+    top: 0.1rem;
+}
+.Win_historyList,.Win_favoriteList{
+    padding-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.Win_historyItems,.Win_favoriteItems{
+    width: fit-content;
+    background-color: #fff;
+    border: 0.5rem #fff solid;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.Win_play{
+    padding: 0.2rem;
+    background-color: #d1d1d1;
+    width: fit-content;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #d1d1d1;
+}
+.Win_play >svg,.Win_play >span{
+    background-color: transparent;
+}
+.Win_favoriteForm{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    margin-left: 1rem;
+    min-width: 60%;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+.Win_formTitle{
+    padding: 1rem;
+    background-color: transparent;
+    border-bottom: 1px solid #d1d1d1;
+    width: 100%;
+}
+.Win_formList{
+    background-color: #fff;
+}
+.Win_formItems{
+    padding-top: 1rem;
+    background-color: #fff;
+    height: 4rem;
+    display: flex;
+    padding-left: 1rem;
+}
+.Win_formItemsLInk{
+    padding: 6px 0 6px 8px;
+    line-height: 19px;
+}
+
+.Win_formList-index{
+    font-family: Avenir;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: #c9ccd0;
+    background-color: #fff;
+}
+
+.Win_formList-index1{
+    color: #ff473d;
+}
+.Win_formList-index2{
+    color: #ff6a29;
+}
+.Win_formList-index3{
+    color: #ff9214;
+}
+a{  
+    display: flex;
+    width: 90%;
+    text-decoration: none;
+    background-color: #fff;
+}
+.Win_formList-text{
+    max-width:90%;
+    font-size: 1.3rem;
+    display: -webkit-inline-block;
+    text-overflow: ellipsis;
+    word-break: break-word!important;
+    -webkit-line-clamp: 1;
+    background-color: #fff;
+    margin-left: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    color: #18191c;
+}
+.Win_formContent{
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.Win_favoritBottom{
+    min-width: 100%;
+    overflow-x: auto;
+    display: flex;
+}
+.Win_favoritBottom::-webkit-scrollbar{
+    display: none;
+}

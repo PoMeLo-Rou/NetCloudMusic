@@ -1,0 +1,48 @@
+.Win_videoBox{
+    width: 100%;
+}
+.Win_header{
+    padding: 1rem;
+}
+.Win_item{
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #d1d2d3;
+}
+.Win_userIcon{
+    width: 5rem;
+    height: 5rem;
+}
+.Win_user{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Win_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.Win_left{
+    display: flex;
+    align-items: center;
+}
+.Win_right{
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+}
+.Win_name{
+    font-size: 1.5rem;
+    color: black;
+}
+.Win_time{
+    font-size: 1.4rem;
+    color: darkgray;
+}
+.Win_content{
+    margin-left: 6rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: black;
+}

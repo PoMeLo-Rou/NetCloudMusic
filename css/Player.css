@@ -1,0 +1,223 @@
+html,body{
+    height: 100%;
+     background: linear-gradient(180deg, rgba(123, 115, 116, 1) 0%, rgba(123, 115, 116, 1) 0%, rgba(134, 147, 147, 1) 100%, rgba(134, 147, 147, 1) 100%); 
+}
+.Win_choose{
+    padding: 0 1rem;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.Win_headBox{
+    display: flex;
+    flex-direction: column;
+}
+.Win_header{
+    height: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Win_centerTitle {
+    text-align: center;
+    align-self: center;
+    position: relative;
+    top: -3rem;
+}
+.Win_centerTitle>p:nth-child(1){
+    font-size: 1.5rem;
+    color: white;
+}
+.Win_centerTitle>p:nth-child(2){
+    font-size: 1.2sssrem;
+    color: #9f9d9d;
+}
+.Win_main{
+    margin-top: 2rem;
+}
+main a>section{
+    padding-bottom: 18.47vh;
+}
+.Win_dj{
+	top:95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3.08vh;
+    position: relative;
+    z-index: 10;
+	/* transform-origin:  top center; /* 设置旋转中心为左中 */ */
+	  /* animation: rotate 4s linear infinite; /* 无限循环旋转动画 */ 
+}
+.Win_dj>p:first-of-type{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.Win_dj>img:first-of-type{
+    width: 16.13vh;
+    transform: rotate(37deg);
+    position: relative;
+    top: 2.1rem;
+    left: 4rem;
+}
+.Win_cd{
+    width: 30rem;
+    height: 30rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s linear;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.Win_rotate{
+    animation: rotate 20s linear infinite;
+}
+.Win_footer{
+    padding: 10rem 1rem 0 1rem;
+    width: 100%;
+}
+.Win_love{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Win_centerTitle{
+	color: white;
+	display: inline-block; 
+	overflow: hidden;
+}
+#Win_songName{
+    width: 20rem;
+}
+.Win_controlBox{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Win_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+    margin-top: 4rem;
+}
+.Win_barBox{
+    width: 100%;
+    height: 0.5rem;
+    padding: 1rem 0;
+    overflow: hidden;
+}
+.Win_barCt{
+    height: 0.4rem;
+    background-color: #A0A7A7;
+    position: relative;
+}
+.Win_barMove{
+    width: 7rem;
+    height: 0.25rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+}
+:root{
+   --audio-duration:audio.duration;
+}
+  
+  @keyframes progressAnimation {
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+  
+  .Win_barMove {
+    animation: progressAnimation var(--audio-duration) linear infinite;
+  }
+
+
+.Win_barMove>p{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0.1rem solid #A0A7A7;
+    position: absolute;
+    top: calc(1rem / -2);
+    right: 0;
+}
+.Win_bar >span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.Win_audio-box {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 设置超出部分隐藏，方便改变图标颜色 */
+    overflow: hidden;
+}
+
+.Win_audio-container {
+    width: 90%;
+}
+
+/* 进度条样式 */
+.Win_a-progress {
+    width: 100%;
+    color: red;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+.Win_pgs-total {
+    width: 100%;
+    height: 0.3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Win_a-progress .Win_pgs-total:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7px;
+    bottom: 7px;
+    background-color: #bbbbbb;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.Win_a-progress .WIn_pgs-total .Win_pgs-play:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.Win_a-progress .Win_pgs-total .Win_pgs-play {
+    height: 100%;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}

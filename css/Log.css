@@ -1,0 +1,44 @@
+#Win_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12rem;
+}
+#Win_title{
+    font-size: 3rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-family: '隶书';
+}
+#Win_login {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Win_visitor{
+    text-align: center;
+    font-size: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #f4bfbc;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.Win_qr{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #f4bfbc;
+    border-radius: 2rem 2rem 2rem 2rem;
+    
+}

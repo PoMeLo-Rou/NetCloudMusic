@@ -1,0 +1,37 @@
+.Win_header{
+    display: flex;
+    padding: 1rem;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.Win_title{
+    font-size: 1.4rem;
+}
+.Win_main{
+    padding: 1rem;
+}
+.Win_item{
+    padding:1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Win_number{
+    padding-right: 1rem;
+    color: darkgray;
+}
+.Win_left{
+    padding-left: 1rem;
+}
+.Win_name{
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.Win_singer{
+    font-size: 1.2rem;
+    color: darkgray;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>MyCloudMusic</title>
+    <link rel="stylesheet" href="../css/Login.css">
+    <style>
+        *{  
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 10px;
+            background-color:#e9d3d2;
+        }
+        @media (max-width:300px){
+            *{
+                font-size: 8px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="Win_icon">
+        <img src="../images/icon.png" alt="" style="height: 20rem; width: 20rem;border-radius: 20%;">
+    </div>
+    <div id="Win_title">
+        MyCloudMusic音乐播放器
+    </div>
+    <div id="Win_login">
+        <div id="Win_qrcodeDiv"></div>
+        <div style="font-size: 1.5rem;padding-top: 1rem;">请扫描二维码登录</div>
+        <div style="padding-top: 5rem;">
+            <input type="radio" style="width: 2rem;height: 1.5rem;" id="Win_check" checked><span style="font-size: 2rem;">同意服务条款、隐私政策</span>
+        </div>
+    </div>
+</body>
+<script src="../js/Login.js"></script>
+</html>

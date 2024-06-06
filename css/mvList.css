@@ -1,0 +1,91 @@
+.Win_banner{
+    display: flex;
+    background-color: #d81e06;
+    padding: 1rem;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Win_footer>ul{
+    border-top: 1px solid #ebe9e9;
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 1rem 2rem;
+    list-style: none;
+    justify-content: space-between;
+}
+.Win_footer{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.Win_footerLi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Win_footer>a{
+    display: flex;
+    justify-items: center;
+    float: left;
+    flex-direction: column;
+}
+.Win_choose{
+    display: flex;
+    align-items: flex-end;
+}
+.Win_choose>span{
+    padding: 0 1rem ;
+}
+.Win_channel{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d81e06;
+}
+.Win_channel>span{
+    text-align: center;
+    width: 5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.Win_channel>span:nth-child(5){
+    background-color: #ddd;
+}
+.Win_main{
+    width: 100%;
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+img{
+    width: 100%;
+    height: fit-content;
+}
+.Win_list{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.Win_videoIcon{
+    width: 15rem;
+    height: 10rem;
+}
+.Win_main>ul>li{
+    width: 15rem;
+    height: 10rem;
+}
+.Win_title{
+    color: black;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-word!important;
+    -webkit-line-clamp: 2;
+}
